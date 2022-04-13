@@ -5,11 +5,11 @@ const Service = ({ service }) => {
     const { img, name, description, price } = service
     return (
         <div className='service'>
-            <img src={img} alt="img" />
+            <img className='w-100' src={img} alt="img" />
             <h2>{name}</h2>
             <p>Price: {price}</p>
             <p>{description}</p>
-            <button>{name}</button>
+            <button className='btn btn-primary'>{name}</button>
         </div>
     );
 };
