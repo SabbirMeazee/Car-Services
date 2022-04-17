@@ -3,10 +3,12 @@
     margin: 0 auto;
 }
 
-.register-form input {
+.register-form input:not([type=checkbox]) {
     display: block;
     width: 100%;
     margin-bottom: 15px;
     font-size: 18px;
+    border-radius: 5px;
     height: 40px;
+    border: 1px solid lightgray;
 }

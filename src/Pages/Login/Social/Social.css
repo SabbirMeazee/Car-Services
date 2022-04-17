@@ -1,0 +1,15 @@
+.lineFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    margin: 0 20px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    width: 150px;
+    color: gray;
+    height: 0px;
+    background-color: gray;
+}
